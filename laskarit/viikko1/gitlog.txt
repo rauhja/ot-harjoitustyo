@@ -1,0 +1,113 @@
+commit 20ad06ecc73a5caf0f8472fdcbd2154362995bbf
+Author: rauhja <82282638+rauhja@users.noreply.github.com>
+Date:   Tue Nov 1 16:55:59 2022 +0200
+
+    file1 poistettu file2 uudelleennimetty
+
+ tiedostoja/file2.txt                 | 0
+ tiedostoja/{file1.txt => file22.txt} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit b279652b45efca9f53199fd5363a3d74e471bb43
+Author: rauhja <82282638+rauhja@users.noreply.github.com>
+Date:   Tue Nov 1 16:49:54 2022 +0200
+
+    luotu tiedostoja kansio
+
+ tiedostoja/file1.txt | 0
+ tiedostoja/file2.txt | 0
+ tiedostoja/file3.txt | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 8e03dd270749e1db6b25ad6962012746f94f0a54
+Author: rauhja <82282638+rauhja@users.noreply.github.com>
+Date:   Tue Nov 1 16:40:22 2022 +0200
+
+    muutoksia ekaan ja kolmanteen tekstitiedostoon
+
+ eka.txt    | 2 --
+ kolmas.txt | 7 ++++++-
+ 2 files changed, 6 insertions(+), 3 deletions(-)
+
+commit 8f4587d77bc0f6fa454819fca896dfcf5b684dcf
+Author: rauhja <82282638+rauhja@users.noreply.github.com>
+Date:   Tue Nov 1 16:35:24 2022 +0200
+
+    tiedosto -> eka.txt
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 962095ed9df9b15caf8986241318dce09538e0f9
+Author: rauhja <82282638+rauhja@users.noreply.github.com>
+Date:   Tue Nov 1 16:33:56 2022 +0200
+
+    poistettu toinen.txt
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit b2a954870b4e865f2379646e459020182bb2603c
+Author: rauhja <82282638+rauhja@users.noreply.github.com>
+Date:   Tue Nov 1 16:32:15 2022 +0200
+
+    lisätty ja poistettu tekstiä
+
+ tiedosto.txt | 11 ++++++++---
+ 1 file changed, 8 insertions(+), 3 deletions(-)
+
+commit 16889826da745be2904a57684cfd2391aac019f0
+Author: rauhja <82282638+rauhja@users.noreply.github.com>
+Date:   Tue Nov 1 16:29:42 2022 +0200
+
+    lisätty tekstiä
+
+ tiedosto.txt | 14 +++++++++++++-
+ 1 file changed, 13 insertions(+), 1 deletion(-)
+
+commit 6fa5a2cb9758a76f0aa1e11db1d69b1d675bb86a
+Author: rauhja <82282638+rauhja@users.noreply.github.com>
+Date:   Tue Nov 1 16:24:31 2022 +0200
+
+    luotu stuff kansio
+
+ stuff/neljas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit d3148443e008ac868cb62b779ded46cf91f728e4
+Author: rauhja <82282638+rauhja@users.noreply.github.com>
+Date:   Tue Nov 1 16:23:15 2022 +0200
+
+    päivitys toinen.txt ja kolmas.txt
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 8f4d82583ad5dffc86baf4e241c55ce52b513e57
+Author: rauhja <82282638+rauhja@users.noreply.github.com>
+Date:   Tue Nov 1 16:21:16 2022 +0200
+
+    kolmas.txt luotu
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit a89194f283e4366e63630917266bd6c3f61433ea
+Author: rauhja <82282638+rauhja@users.noreply.github.com>
+Date:   Tue Nov 1 16:19:56 2022 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 2 ++
+ toinen.txt   | 0
+ 2 files changed, 2 insertions(+)
+
+commit 1f879c75c44fb99a52930e082780da3e04d2e0f2
+Author: rauhja <82282638+rauhja@users.noreply.github.com>
+Date:   Tue Nov 1 16:17:59 2022 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
