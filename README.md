@@ -8,3 +8,6 @@
 
 [komentorivi.txt](laskarit/viikko1/komentorivi.txt)
 
+### Viikko 2
+
+[testcoverage.png](laskarit/viikko2/testcoverage.png)
