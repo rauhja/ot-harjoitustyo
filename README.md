@@ -11,5 +11,7 @@
 ### Viikko 2
 
 [testcoverage.png](laskarit/viikko2/testcoverage.png)
+
 [Vaatimusmäärittely](dokumentaatio/vaatimusmaarittely.md)
+
 [Tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
