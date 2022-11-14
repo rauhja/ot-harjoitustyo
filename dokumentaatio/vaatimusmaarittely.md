@@ -1,4 +1,4 @@
-#Vaatimusmäärittely
+# Vaatimusmäärittely
 
 ## Sovelluksen tarkoitus
 
@@ -12,22 +12,22 @@ sovellus pitää kirjaa arvatuista sanoista ja montako arvausyritystä siihen ku
 
 ## Käyttöliittymäluonnos
 
-![](./kuvat/kayttoliittyma-hahmotelma.jpg)
+![](./kuvat/kayttoliittyma_hahmotelma.jpg)
 
 ## Perusversion tarjoama toiminnallisuus
 
 ### Pelin toiminnallisuus
 
 - Käyttäjä yrittää arvata annettua sanaa
-  - Viisi yritystä arvata sanaa
+  - Viisi yritystä arvata sana
   - Jos kirjain on oikein ja oikealla paikalla, muuttuu se vihreäksi
   - Jos kirjain on oikein, mutta on väärällä paikalla, muuttuu se keltaiseksi
 
 - Käyttäjä voi luoda järjestelmään käyttäjätunnuksen
-  - Käyttäjätunnuksen tulee olla uniikki
+- Käyttäjätunnuksen tulee olla uniikki
   - Salasanan täytyy olla yli 8 merkkiä ja sisältää:
-    - Vähintään yksi iso kirjain
-    - Vähintään yksi numero
+  - Vähintään yksi iso kirjain
+  - Vähintään yksi numero
   
 - Käyttäjä voi kirjautua sisään tunnuksella ja salasanalla
   - Jos käyttäjätunnus tai salasana on väärin, järjestelmä ilmoittaa siitä
@@ -37,5 +37,4 @@ sovellus pitää kirjaa arvatuista sanoista ja montako arvausyritystä siihen ku
 ### Kirjautumisen jälkeen
 
 - Käyttäjä voi pelata peliä
-
 - Käyttäjän peleistä tallentuu tilastoja
