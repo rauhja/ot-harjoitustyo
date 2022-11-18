@@ -5,6 +5,7 @@ def main():
     
     window = Tk()
     window.title("Word Guessing Game")
+    window.geometry('300x400+600+100')
     
     ui_view = UI(window)
     ui_view.start()
