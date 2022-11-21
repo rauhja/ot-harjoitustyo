@@ -1,17 +1,30 @@
-# Ohjelmistotekniikan kurssi
+# Word Guess Game
 
-## Tehtävät
+Tämä sovellus on peli, jossa käyttäjä yrittää arvata viisi kirjaimista sanaa viidellä yrityksellä. 
 
-### Viikko 1
+## Dokumentaatio
 
-[gitlog.txt](laskarit/viikko1/gitlog.txt)
+- [Vaatimusmäärittely](dokumentaatio/vaatimusmaarittely.md)
+- [Tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
+- [Changelog](dokumentaatio/changelog.md)
 
-[komentorivi.txt](laskarit/viikko1/komentorivi.txt)
+## Komentorivitoiminnot
 
-### Viikko 2
+### Ohjelman käynnistys
 
-[testcoverage.png](laskarit/viikko2/testcoverage.png)
+```bash
+poetry run invoke start
+```
 
-[Vaatimusmäärittely](dokumentaatio/vaatimusmaarittely.md)
+## Testaus
 
-[Tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
+```bash
+poetry run invoke test
+```
+
+## Testikattavuusraportti
+
+```bash
+poetry run invoke coverage-report
+```
+Kattavuutta voi tarkastella htmlcov -kansiosta löytävästä index.html tiedostosta 
