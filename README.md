@@ -8,6 +8,14 @@ Tämä sovellus on peli, jossa käyttäjä yrittää arvata viisi kirjaimista sa
 - [Tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
 - [Changelog](dokumentaatio/changelog.md)
 
+## Asennus
+
+### Asenna riippuvuudet komennolla
+
+```bash
+poetry install
+```
+
 ## Komentorivitoiminnot
 
 ### Ohjelman käynnistys
