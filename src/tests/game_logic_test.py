@@ -1,5 +1,5 @@
 import unittest
-from game_logic import GameLogic
+from services.game_logic import GameLogic
 
 class TestGameLogic(unittest.TestCase):
     def setUp(self):
