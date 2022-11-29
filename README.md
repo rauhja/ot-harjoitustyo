@@ -36,4 +36,10 @@ poetry run invoke test
 ```bash
 poetry run invoke coverage-report
 ```
-Kattavuutta voi tarkastella htmlcov -kansiosta löytävästä index.html tiedostosta 
+Kattavuutta voi tarkastella htmlcov -kansiosta löytävästä index.html tiedostosta
+
+## Pylint
+
+```bash
+poetry run invoke lint
+```
