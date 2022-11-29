@@ -9,4 +9,6 @@
 | 21.11. | 2    | Testien luonti pelilogiikan testausta varten ja dokumentaation päivitys |
 | 23.11. | 4    | Pelilogiikan ja käyttöliittymän sulauttaminen aloitettu |
 |        | 0,5  | Lintin ja taskin lisääminen |
-| yht    | 14   | |
+| 28.11. | 4    | UIn ja pelilogiikan refaktorointi |
+| 29.11. | 0,5  | Arkkitehtuuri dokumentaatio |
+| yht    | 18,5 | |

@@ -1,5 +1,6 @@
 from ui.start_view import StartView
 from ui.game_view import GameView
+from services.game_events import GameEvents
 
 
 class UI:
@@ -14,7 +15,6 @@ class UI:
     def _hide_current_view(self):
         if self._current_view:
             self._current_view.destroy()
-        
         self._current_view = None
     
     def _handle_play(self):
@@ -30,15 +30,17 @@ class UI:
             self._root,
             self._handle_play
         )
-        
         self._current_view.pack()
         
     def _show_game_view(self):
         self._hide_current_view()
         
+        GameEvents(self._root, self._handle_back)
+        
         self._current_view = GameView(
             self._root,
             self._handle_back
         )
+        # self._current_view._initialize()
         
         self._current_view.pack()

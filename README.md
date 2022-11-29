@@ -7,6 +7,7 @@ Tämä sovellus on peli, jossa käyttäjä yrittää arvata viisi kirjaimista sa
 - [Vaatimusmäärittely](dokumentaatio/vaatimusmaarittely.md)
 - [Tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
 - [Changelog](dokumentaatio/changelog.md)
+- [Arkkitehtuuri](dokumentaatio/arkkitehtuuri.md)
 
 ## Asennus
 

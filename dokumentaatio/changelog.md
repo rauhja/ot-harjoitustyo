@@ -6,4 +6,5 @@
 - Testattu pelilogiikan toimivuutta
 
 ## Viikko 4
-- Sovelluksen UIn ja pelilogiikan eriytys
+- Sovelluksen UIn ja pelilogiikan refaktorointi
+- Dokumentaatioon lisätty alustava arkkitehtuuri -tiedosto
