@@ -11,4 +11,5 @@
 |        | 0,5  | Lintin ja taskin lisääminen |
 | 28.11. | 4    | UIn ja pelilogiikan refaktorointi |
 | 29.11. | 0,5  | Arkkitehtuuri dokumentaatio |
-| yht    | 18,5 | |
+| 2.12.  | 4    | Pelilogiikan viimeistelyä ja testien laajentaminen |
+| yht    | 22,5 | |

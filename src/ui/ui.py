@@ -35,12 +35,10 @@ class UI:
     def _show_game_view(self):
         self._hide_current_view()
         
-        GameEvents(self._root, self._handle_back)
-        
         self._current_view = GameView(
             self._root,
             self._handle_back
         )
-        # self._current_view._initialize()
-        
+        GameEvents(self._root, self._current_view)
+                
         self._current_view.pack()

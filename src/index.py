@@ -4,7 +4,7 @@ from ui.ui import UI
 def main():
     window = Tk()
     window.title("Word Guessing Game")
-    window.geometry('300x400+600+100')
+    window.geometry('260x400+600+100')
     ui_view = UI(window)
     ui_view.start()
     window.mainloop()

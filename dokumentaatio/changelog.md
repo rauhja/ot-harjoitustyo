@@ -8,3 +8,7 @@
 ## Viikko 4
 - Sovelluksen UIn ja pelilogiikan refaktorointi
 - Dokumentaatioon lisätty alustava arkkitehtuuri -tiedosto
+
+## Viikko 5
+- Sovelluksen pelilogiikan viimeistelyä
+- Testikattavuuden parannus
