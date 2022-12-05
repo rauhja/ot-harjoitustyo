@@ -1,3 +1,5 @@
+import random
+
 class GameLogic:
 
     def __init__(self):
@@ -8,12 +10,17 @@ class GameLogic:
         self.upper_limit = 5
         self.word = ""
         self.is_winner = False
+        self.data = "./src/five.txt"
 
         self._initialize()
 
     def _get_word(self):
-        word = "steak"
-        return word
+        with open(self.data, "r", encoding = 'utf-8') as file:
+            all = file.read()
+            words = list(map(str, all.split()))
+            word = random.choice(words)
+            file.close()
+            return word
 
     def _increase_guess_num(self):
         self.guess_num += 1

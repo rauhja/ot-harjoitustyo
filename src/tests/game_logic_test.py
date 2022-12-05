@@ -4,7 +4,6 @@ from services.game_logic import GameLogic
 class TestGameLogic(unittest.TestCase):
     def setUp(self):
         self.game = GameLogic()
-        self.word = "steak"
     
     def test_get_word(self):
         self.assertTrue(self.game._get_word)

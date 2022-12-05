@@ -18,7 +18,7 @@ sovellus pitää kirjaa arvatuista sanoista ja montako arvausyritystä siihen ku
 
 ### Pelin toiminnallisuus
 
-- Käyttäjä yrittää arvata annettua sanaa
+- Käyttäjä yrittää arvata annettua sanaa "tehty"
   - Viisi yritystä arvata sana
   - Jos kirjain on oikein ja oikealla paikalla, muuttuu se vihreäksi
   - Jos kirjain on oikein, mutta on väärällä paikalla, muuttuu se keltaiseksi
@@ -32,7 +32,7 @@ sovellus pitää kirjaa arvatuista sanoista ja montako arvausyritystä siihen ku
 - Käyttäjä voi kirjautua sisään tunnuksella ja salasanalla
   - Jos käyttäjätunnus tai salasana on väärin, järjestelmä ilmoittaa siitä
 
-- Käyttäjä voi pelata peliä myös ilman kirjautumista
+- Käyttäjä voi pelata peliä myös ilman kirjautumista "tehty"
 
 ### Kirjautumisen jälkeen
 

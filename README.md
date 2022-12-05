@@ -43,3 +43,8 @@ Kattavuutta voi tarkastella htmlcov -kansiosta löytävästä index.html tiedost
 ```bash
 poetry run invoke lint
 ```
+
+## Lähdeviite
+
+Sovelluksessa käytettävä sanalista ladattu:
+https://www-cs-faculty.stanford.edu/~knuth/sgb-words.txt

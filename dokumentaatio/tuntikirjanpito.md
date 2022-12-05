@@ -12,4 +12,5 @@
 | 28.11. | 4    | UIn ja pelilogiikan refaktorointi |
 | 29.11. | 0,5  | Arkkitehtuuri dokumentaatio |
 | 2.12.  | 4    | Pelilogiikan viimeistelyä ja testien laajentaminen |
-| yht    | 22,5 | |
+| 5.12.  | 1    | Arkkitehtuuri dokumentaation päivitys |
+| yht    | 23,5 | |

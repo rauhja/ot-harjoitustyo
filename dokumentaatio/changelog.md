@@ -12,3 +12,4 @@
 ## Viikko 5
 - Sovelluksen pelilogiikan viimeistelyä
 - Testikattavuuden parannus
+- Arkkitehtuuri -dokumentaation päivitys
