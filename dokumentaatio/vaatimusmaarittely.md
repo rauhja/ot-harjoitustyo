@@ -8,7 +8,7 @@ on mahdollista luoda oma käyttäjätunnus, jolloin sovellus tallentaa tilastoja
 ## Käyttäjät
 
 Sovellusta voi pelata joko luomalla käyttäjätunnuksen tai ilman. Luomalla käyttäjätunnuksen 
-sovellus pitää kirjaa arvatuista sanoista ja montako arvausyritystä siihen kului.
+sovellus pitää kirjaa pelatuista peleistä ja arvattujen sanojen määrästä.
 
 ## Käyttöliittymäluonnos
 
@@ -23,18 +23,18 @@ sovellus pitää kirjaa arvatuista sanoista ja montako arvausyritystä siihen ku
   - Jos kirjain on oikein ja oikealla paikalla, muuttuu se vihreäksi
   - Jos kirjain on oikein, mutta on väärällä paikalla, muuttuu se keltaiseksi
 
-- Käyttäjä voi luoda järjestelmään käyttäjätunnuksen
+- Käyttäjä voi luoda järjestelmään käyttäjätunnuksen "tehty"
 - Käyttäjätunnuksen tulee olla uniikki
-  - Salasanan täytyy olla yli 8 merkkiä ja sisältää:
+  - Salasanan täytyy olla yli 6 merkkiä ja sisältää:
   - Vähintään yksi iso kirjain
   - Vähintään yksi numero
   
-- Käyttäjä voi kirjautua sisään tunnuksella ja salasanalla
+- Käyttäjä voi kirjautua sisään tunnuksella ja salasanalla "tehty"
   - Jos käyttäjätunnus tai salasana on väärin, järjestelmä ilmoittaa siitä
 
 - Käyttäjä voi pelata peliä myös ilman kirjautumista "tehty"
 
 ### Kirjautumisen jälkeen
 
-- Käyttäjä voi pelata peliä
-- Käyttäjän peleistä tallentuu tilastoja
+- Käyttäjä voi pelata peliä "tehty"
+- Käyttäjän peleistä tallentuu tilastoja "tehty"

@@ -13,3 +13,8 @@
 - Sovelluksen pelilogiikan viimeistelyä
 - Testikattavuuden parannus
 - Arkkitehtuuri -dokumentaation päivitys
+
+## Viikko 6
+- Luotu käyttäjätietokanta sovellukselle
+- Luotu pistetietokanta tilastojen ylläpitoon
+- Dokumentaatiota päivitetty

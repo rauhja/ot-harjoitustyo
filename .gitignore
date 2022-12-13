@@ -2,3 +2,7 @@
 __pycache__
 .coverage
 htmlcov
+users.db
+score.db
+test-users.db
+test-score.db

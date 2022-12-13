@@ -13,4 +13,8 @@
 | 29.11. | 0,5  | Arkkitehtuuri dokumentaatio |
 | 2.12.  | 4    | Pelilogiikan viimeistelyä ja testien laajentaminen |
 | 5.12.  | 1    | Arkkitehtuuri dokumentaation päivitys |
-| yht    | 23,5 | |
+| 9.12.  | 2    | Tietokannan rakennusta |
+| 10.12. | 2    | Tietokannan toteutusta |
+| 12.12. | 2,5  | Tietokannan viimeistely ja docstring -dokumentointi |
+|        | 1    | Käyttöohjeen teko |
+| yht    | 31   | |
