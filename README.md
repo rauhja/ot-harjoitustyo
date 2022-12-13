@@ -10,6 +10,7 @@ Tämä sovellus on peli, jossa käyttäjä yrittää arvata viisi kirjaimista sa
 - [Arkkitehtuuri](dokumentaatio/arkkitehtuuri.md)
 - [Käyttöohje](dokumentaatio/kayttoohje.md)
 - [Viikko 5 release](https://github.com/rauhja/ot-harjoitustyo/releases/tag/viikko5)
+- [Viikko 6 release](https://github.com/rauhja/ot-harjoitustyo/releases/tag/viikko5)
 
 ## Asennus
 
@@ -17,6 +18,17 @@ Tämä sovellus on peli, jossa käyttäjä yrittää arvata viisi kirjaimista sa
 
 ```bash
 poetry install
+```
+### Alusta ohjelma
+
+```bash
+poetry run invoke build
+```
+
+### Käynnistä ohjelma
+
+```bash
+poetry run invoke start
 ```
 
 ## Komentorivitoiminnot

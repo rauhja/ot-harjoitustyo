@@ -17,4 +17,5 @@
 | 10.12. | 2    | Tietokannan toteutusta |
 | 12.12. | 2,5  | Tietokannan viimeistely ja docstring -dokumentointi |
 |        | 1    | Käyttöohjeen teko |
-| yht    | 31   | |
+| 13.12. | 0,5  | Release 2 teko |
+| yht    | 31,5 | |
