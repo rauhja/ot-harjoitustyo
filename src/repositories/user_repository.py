@@ -2,15 +2,6 @@ from entities.user import User
 from db_connection import get_db_connection
 
 
-def return_user(row):
-    """Returns a user object from a row in the database
-
-    Args:
-        row (tuple): Row from the database
-    """
-    return User(row["username"], row["password"])
-
-
 class UserRepository:
 
     def __init__(self):
@@ -19,6 +10,15 @@ class UserRepository:
         """
 
         self._connection = get_db_connection()
+
+    @staticmethod
+    def return_user(row):
+        """Returns a user object from a row in the database
+
+        Args:
+            row (tuple): Row from the database
+        """
+        return User(row["username"], row["password"])
 
     def create_user(self, user):
         """Creates a user in the database
@@ -48,7 +48,7 @@ class UserRepository:
             "SELECT * FROM user_database WHERE username = ?", [username])
         row = cursor.fetchone()
         if row:
-            return return_user(row)
+            return UserRepository().return_user(row)
         return False
 
     def login(self, username, password):
@@ -68,7 +68,7 @@ class UserRepository:
         row = cursor.fetchone()
         if row is None:
             return None
-        return return_user(row)
+        return UserRepository().return_user(row)
 
     def delete_data(self):
         """Deletes all data from the database

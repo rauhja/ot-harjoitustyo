@@ -4,6 +4,7 @@ from services.database_service import DatabaseService
 from repositories.score_repository import ScoreRepository
 from entities.score import Score
 
+
 class TestGameLogic(unittest.TestCase):
     def setUp(self):
         self.game = GameLogic()

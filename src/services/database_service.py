@@ -3,6 +3,7 @@ from repositories.score_repository import ScoreRepository
 from entities.user import User
 from entities.score import Score
 
+
 class UsernameExistError(Exception):
     pass
 

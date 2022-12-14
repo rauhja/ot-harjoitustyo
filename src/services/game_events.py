@@ -32,7 +32,8 @@ class GameEvents:
         """
 
         if "a" <= event.char <= "z":
-            if self.game_logic.letter_count < self.game_logic.upper_limit:
+            if self.game_logic.letter_count < self.game_logic.upper_limit \
+                and self.game_logic.guess_num < 6:
                 self.game_logic.add_letter(event.char)
                 self.game_ui.handle_letter(event.char,
                                            self.game_logic.letter_count,
@@ -49,7 +50,7 @@ class GameEvents:
                 self.game_logic.remove_letter()
 
         if event.keysym == "Return":
-            if self.game_logic.letter_count % 5 == 0:
+            if self.game_logic.letter_count == self.game_logic.upper_limit:
                 check = self.game_logic.check_word()
                 self.game_ui.handle_enter(check, self.game_logic.letter_count)
                 win_lose = self.game_logic.win_lose(self._db_services)

@@ -2,14 +2,6 @@ from score_db_connection import get_score_db_connection
 from entities.score import Score
 
 
-def return_user(row):
-    """Returns a user object from a row in the database
-
-    Args:
-        row (tuple): Row from the database
-    """
-    return Score(row["username"])
-
 class ScoreRepository:
 
     def __init__(self):
@@ -18,6 +10,15 @@ class ScoreRepository:
         """
 
         self._connection = get_score_db_connection()
+
+    @staticmethod
+    def return_user(row):
+        """Returns a user object from a row in the database
+
+        Args:
+            row (tuple): Row from the database
+        """
+        return Score(row["username"])
 
     def create_score(self, user):
         """Creates a new score in the database
@@ -47,7 +48,7 @@ class ScoreRepository:
             "SELECT * FROM score_database WHERE username = ?", [username])
         row = cursor.fetchone()
         if row:
-            return return_user(row)
+            return ScoreRepository().return_user(row)
         return False
 
     def update_played_games(self, username):

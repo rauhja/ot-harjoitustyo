@@ -49,6 +49,7 @@ class CreateUserView:
         try:
             self._db_services.create_user(username=username, password=password)
             self._db_services.create_score(username=username)
+            self._hide_error()
             self._user_created.set("User created")
             self._user_created_label.grid()
         except UsernameExistError:
@@ -59,11 +60,11 @@ class CreateUserView:
             self._error_label.grid()
         except UsernameTooShortError:
             self._error_variable.set(
-                "Username too short, minimum 3 characters")
+                "Username too short,\nminimum 3 characters")
             self._error_label.grid()
         except InvalidPassword:
             self._error_variable.set(
-                "Password should be over 8 characters,\n include at least one number, uppercase and lowercase letter")
+                "Password should be over 8 characters,\ninclude at least one number, uppercase and lowercase letter")
             self._error_label.grid()
 
     def _hide_error(self):

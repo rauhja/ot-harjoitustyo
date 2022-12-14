@@ -3,6 +3,7 @@ from repositories.score_repository import ScoreRepository
 from services.database_service import DatabaseService
 from entities.score import Score
 
+
 class TestScoreRepository(unittest.TestCase):
     def setUp(self):
         ScoreRepository().delete_data()
