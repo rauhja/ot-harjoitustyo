@@ -9,8 +9,9 @@ Tämä sovellus on peli, jossa käyttäjä yrittää arvata viisi kirjaimista sa
 - [Changelog](dokumentaatio/changelog.md)
 - [Arkkitehtuuri](dokumentaatio/arkkitehtuuri.md)
 - [Käyttöohje](dokumentaatio/kayttoohje.md)
+- [Testausdokumentti](dokumentaatio/testaus.md)
 - [Viikko 5 release](https://github.com/rauhja/ot-harjoitustyo/releases/tag/viikko5)
-- [Viikko 6 release](https://github.com/rauhja/ot-harjoitustyo/releases/tag/viikko5)
+- [Viikko 6 release](https://github.com/rauhja/ot-harjoitustyo/releases/tag/viikko6)
 
 ## Asennus
 
