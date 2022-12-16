@@ -1,6 +1,8 @@
 # Word Guess Game
 
-Tämä sovellus on peli, jossa käyttäjä yrittää arvata viisi kirjaimista sanaa viidellä yrityksellä. 
+Tämä sovellus on jäljitelmä suureen suosioon nouseesta New York Timesin Wordle pelistä, missä käyttäjä yrittää arvata satunnaista viisi kirjaimista sanaa. Käyttäjä voi myös luoda oman käyttäjätunnuksen ja näin kerätä tilastoja peleistään. 
+
+Sovellus on tehty Helsingin yliopiston Ohjelmistotekniikan kurssin harjoitustyönä.
 
 ## Dokumentaatio
 

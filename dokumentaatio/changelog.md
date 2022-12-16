@@ -18,3 +18,9 @@
 - Luotu käyttäjätietokanta sovellukselle
 - Luotu pistetietokanta tilastojen ylläpitoon
 - Dokumentaatiota päivitetty
+
+## Viikko 7
+- Dokumentaatioon päivitetty käyttöohjeet
+- Dokumentaatioon lisätty testausdokumentti
+- Dokumentaatioon päivitetty arkkitehtuuri dokumentti
+- Käyttöliittymän kirjoitusasun parantaminen
