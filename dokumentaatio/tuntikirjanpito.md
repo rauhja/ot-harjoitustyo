@@ -18,5 +18,6 @@
 | 12.12. | 2,5  | Tietokannan viimeistely ja docstring -dokumentointi |
 |        | 1    | Käyttöohjeen teko |
 | 13.12. | 0,5  | Release 2 teko |
-| 14.12. | 2,5  | Viimeistelyjä loppupalautusta varten |
-| yht    | 34   | |
+| 14.12. | 3,5  | Viimeistelyjä loppupalautusta varten |
+| 16.12. | 1,5  | Arkkitehtuuri -dokumentin viimeistely |
+| yht    | 36,5 | |

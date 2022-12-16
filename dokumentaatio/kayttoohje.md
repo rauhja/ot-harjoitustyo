@@ -32,14 +32,14 @@ poetry run invoke start
 
 Sovellus käynnistyy näkymään:
 
-[](./kuvat/startview.png)
+![](./kuvat/startview.png)
 
 ## Uuden käyttäjän luonti
 
 Klikkaa Sign Up -nappia
 Syötä tekstikenttiin haluamasi käyttäjätunnus ja salasana
 
-[](./kuvat/createuser.png)
+![](./kuvat/createuser.png)
 
 Huom! Käyttäjätunnuksen täytyy olla vähintään kolme merkkiä pitkä. Myös salasanan täytyy olla yli kuusi merkkiä pitkä ja lisäksi:
 
@@ -56,13 +56,13 @@ Palataksesi aloitusnäkymään klikkaa back -nappia
 
  Syötä kirjautumistiedot ja klikkaa Sign In -nappia
 
-[](./kuvat/login.png)
+![](./kuvat/loginview.png)
 
 ## Sisäänkirjauksen jälkeen
 
 Näkymän kautta voi siirtyä pelaamaan peliä tai tarkastella tilastoja.
 
-[](./kuvat/loggedinview.png)
+![](./kuvat/loggedinview.png)
 
 Alareunassa näet tilastoja pelikerroista ja monesti on arvattu sana oikein.
 Log out -napista pääset kirjautumaan ulos ja takaisin aloitusnäkymään.
@@ -73,7 +73,7 @@ Voit arvata sanaa näppäilemällä arvauksesi ruudukkoon.
 
 Painamalla Enteriä peli tarkastaa onko sana oikein
 
-[](./kuvat/playview.png)
+![](./kuvat/playview.png)
 
 Keltainen ruutu ilmaisee että kirjain on oikein, mutta väärällä paikalla
 Vihreä ruutu ilmaisee että kirjain on oikein ja oikealla paikalla

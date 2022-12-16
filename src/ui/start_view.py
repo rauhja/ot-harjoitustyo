@@ -43,7 +43,7 @@ class StartView:
 
         signin_button = ttk.Button(
             master=self._frame,
-            text="Log In",
+            text="Login",
             command=self._handle_show_login_view
         )
 

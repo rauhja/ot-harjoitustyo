@@ -16,7 +16,7 @@ Repositorio -luokkia UserRepository ja ScoreRepository testataan erillisissä te
 
 Ohjelman testikattavuus on 95% kun käyttöliittymää ei lasketa mukaan.
 
-[](./kuvat/testikattavuus.png)
+![](./kuvat/testikattavuus.png)
 
 Testaamatta jäivät build.py ja initialize_database.py -tiedostot, sillä niiden toiminnallisuus on hyvin yksinkertaista. Myös game_events.py testaus on jätetty suorittamatta, sillä kyseinen tiedosto käsittelee käyttöliittymän näppäinkometoja.
 
