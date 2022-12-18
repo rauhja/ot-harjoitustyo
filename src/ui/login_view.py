@@ -54,6 +54,10 @@ class LoginView:
         self._error_label.grid_remove()
 
     def _initialize(self):
+        """Initializes the login view
+
+        """
+
         self._frame = ttk.Frame(master=self._root)
         header = ttk.Label(master=self._frame, text="Login")
         username_label = ttk.Label(master=self._frame, text="Username")

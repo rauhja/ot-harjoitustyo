@@ -59,4 +59,8 @@ class GameEvents:
                 self.game_logic.increase_upper_limit()
 
     def _initialize(self):
+        """Initializes the game events.
+
+        """
+
         self._root.bind("<Key>", self._event_handler)

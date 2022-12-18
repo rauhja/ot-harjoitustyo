@@ -100,6 +100,10 @@ class GameView:
             self._winloselbl.set(f"Correct word was: {answer}")
 
     def _initialize(self):
+        """Function that initializes the game view
+
+        """
+
         self._frame = ttk.Frame(master=self._root)
         header = ttk.Label(master=self._frame, text="Guess Word")
         self._winloselbl = StringVar()

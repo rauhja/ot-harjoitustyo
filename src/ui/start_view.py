@@ -32,6 +32,10 @@ class StartView:
         self._frame.destroy()
 
     def _initialize(self):
+        """Initializes the start view
+        
+        """
+
         self._frame = ttk.Frame(master=self._root)
         header = ttk.Label(master=self._frame, text="WORD GUESSING GAME")
 

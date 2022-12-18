@@ -40,6 +40,9 @@ class LoggedInView:
         self._num_words = self._db_services.get_guessed_words()
 
     def _initialize(self):
+        """Initializes the logged in view
+
+        """
         self._frame = ttk.Frame(master=self._root)
         self._handle_stats()
         header = ttk.Label(master=self._frame, text="WORD GUESSING GAME")

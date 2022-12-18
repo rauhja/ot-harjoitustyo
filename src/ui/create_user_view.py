@@ -74,6 +74,10 @@ class CreateUserView:
         self._user_created_label.grid_remove()
 
     def _initialize(self):
+        """Initializes the create user view
+
+        """
+
         self._frame = ttk.Frame(master=self._root)
 
         header = ttk.Label(master=self._frame, text="Create User")

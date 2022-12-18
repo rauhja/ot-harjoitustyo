@@ -128,4 +128,8 @@ class GameLogic:
         return [0, 0, 0, 0, 0]
 
     def _initialize(self):
+        """Initializes the game logic and gets a word.
+
+        """
+
         self.word = self._get_word()

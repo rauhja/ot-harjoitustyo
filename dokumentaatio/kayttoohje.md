@@ -10,6 +10,11 @@ USERS_FILENAME=users.db
 SCORE_FILENAME=score.db
 ```
 
+Pelissä käytettävä sanakirjasto ja sanoja voi lisätä tai poistaa tiedostossa:
+```
+ src\five.txt
+```
+
 ## Ohjelman käynnistäminen
 
 Ennen ohjelman käynnistämistä, asenna riippuvuudet komennolla:
@@ -69,14 +74,14 @@ Log out -napista pääset kirjautumaan ulos ja takaisin aloitusnäkymään.
 
 ## Pelinäkymä
 
-Voit arvata sanaa näppäilemällä arvauksesi ruudukkoon.
+Tarkoituksena on arvata viisi kirjaiminen englanninkielinen sana näppäilemällä arvauksesi. Sovelluksen ikkunan täytyy olla aktiivinen.
 
-Painamalla Enteriä peli tarkastaa onko sana oikein
+Painamalla Enteriä peli tarkastaa onko kirjoittamasi sana oikein.
 
 ![](./kuvat/playview.png)
 
-Keltainen ruutu ilmaisee että kirjain on oikein, mutta väärällä paikalla
-Vihreä ruutu ilmaisee että kirjain on oikein ja oikealla paikalla
+Keltainen ruutu ilmaisee että kirjain on oikein, mutta väärällä paikalla.
+Vihreä ruutu ilmaisee että kirjain on oikein ja oikealla paikalla.
 
 Jos arvaat sanan oikein enintään viidellä yrityksellä, muuttuvat kaikki ruudut vihreiksi ja ruudukon alle tulee ilmoitus.
 Jos sanaa ei arvata oikein, tulee ruudukon alle ilmoitus ja oikea sana.
